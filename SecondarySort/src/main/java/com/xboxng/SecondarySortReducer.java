@@ -12,7 +12,6 @@ import java.time.LocalDate;
 public class SecondarySortReducer extends Reducer<CompositeKey, NaturalValue, Text, Text> {
     @Override
     public void reduce(CompositeKey key, Iterable<NaturalValue> values, Context context) throws IOException, InterruptedException {
-        System.out.println(key + "<<<<");
         StringBuilder builder  = new StringBuilder();
         for (NaturalValue value : values) {
             builder.append("(");
