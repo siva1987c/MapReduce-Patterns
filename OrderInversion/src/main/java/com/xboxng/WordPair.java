@@ -13,6 +13,10 @@ public class WordPair implements WritableComparable<WordPair> {
     private String word;
     private String neighbor;
 
+    public WordPair() {
+
+    }
+
     public WordPair(String word, String neighbor) {
         this.word = word;
         this.neighbor = neighbor;

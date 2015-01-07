@@ -23,7 +23,7 @@ public class OrderInversionMapper extends Mapper<LongWritable, Text, WordPair, I
         WordPair pairStar = new WordPair(tokens[i], "*");
         int countStar = 0;
 
-        for (int j = left; j < right; j++) {
+        for (int j = left; j <= right; j++) {
             if (tokens[i].equals(tokens[j])) {
                 continue;
             }
