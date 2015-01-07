@@ -1,4 +1,12 @@
 ```
+java is a great language
+java is a programming language
+java is green fun language
+java is great
+programming with java is fun
+```
+
+```
 (a,great)	0.125
 (a,is)	0.25
 (a,java)	0.25
