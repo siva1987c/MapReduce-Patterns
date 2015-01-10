@@ -41,4 +41,6 @@ IBM   2013-09-30	186.04999999999995
 ```
 
 # How To Run
+```
 hadoop jar target/MovingAverage-1.0-SNAPSHOT.jar com.xboxng.ma.MADriver sample output
+```
