@@ -1,4 +1,7 @@
+# Problem
+Calculate relative frequecies of words for a given set of documents
 
+For example, if input is:
 
 ```
 java is a great language
@@ -7,6 +10,8 @@ java is green fun language
 java is great
 programming with java is fun
 ```
+
+output would be:
 
 ```
 (a,great)	0.125
@@ -53,4 +58,8 @@ programming with java is fun
 (with,is)	0.3333333333333333
 (with,java)	0.3333333333333333
 (with,programming)	0.3333333333333333
+```
+# How To Run
+```
+hadoop jar target/OrderInversion-1.0-SNAPSHOT.jar com.xboxng.OrderInversionDriver sample output
 ```
