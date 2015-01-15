@@ -1,5 +1,5 @@
 # Problem
-find common friends
+Find common friends or all pairs of users
 
 # Example
 input (line 1 means user 100 has friends 200, 300, 400, 500 and 600)
